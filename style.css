@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+section{
+    padding: 2rem;
+    text-align: center;
+    background-color: bisque;
+    color: black;
+}
+
+p{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    margin: 2rem 0;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-img{
+    border-radius: 50%;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20vw;
+    background-color: cornsilk;
+}
+.card-img{
+    width: 100%;
+}
+
+.edu-wrapper{
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.input{
+    outline: none;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
